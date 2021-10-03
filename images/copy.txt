@@ -1,0 +1,30 @@
+Wings and Boneless
+wings: Imagen de ALFONSO CHARLES en Pixabay
+boneless: Imagen de adiosmary en Pixabay
+
+Snack
+fries: Imagen de Matthias Böckel en Pixabay 
+crunchy: Imagen de Fabricio Macedo FGMsp en Pixabay 
+nuggets: Imagen de Rene Arizmendi en Pixabay 
+cheeseSticks: Imagen de Erika Tanith en Pixabay 
+
+Hamburger
+hamburgerChicken: Imagen de Lala Irène Randrianasolo en Pixabay 
+hamburger:Imagen de RitaE en Pixabay
+
+Other
+nachos: Imagen de ALFONSO CHARLES en Pixabay 
+hotdog: Imagen de u_wmcc01ba en Pixabay
+ice: Imagen de tookapic en Pixabay 
+
+Drinks
+beer: Imagen de Bruno Marques Designer en Pixabay 
+limeWater: Imagen de RitaE en Pixabay 
+orangeJuice: Imagen de Jan Vašek en Pixabay 
+
+
+productName
+category
+urlImage
+description
+price
