@@ -1,0 +1,101 @@
+{
+    "allProducts":
+    [{ 
+        "name": "wings",
+        "productName": "Red Wings",
+        "price": "Price: $5",
+        "srcImage": "images/wings.jpg",
+        "categoryProduct": "wings"     
+    },
+    {
+        "name": "boneless",
+        "productName": "Red Boneless",
+        "price": "Price: $6",
+        "srcImage": "images/boneless.jpg",
+        "categoryProduct": "wings"  
+    },
+    {
+        "name": "fries",
+        "productName": "French Fries",
+        "price": "Price: $2",
+        "srcImage": "images/fries.jpg",
+        "categoryProduct": "snacks"  
+    },
+    {
+        "name": "crunchy",
+        "productName": "Crunchy Hots",
+        "price": "Price: $2",
+        "srcImage": "images/crunchy.jpg",
+        "categoryProduct": "snacks"
+    },
+    {
+        "name": "nuggets",
+        "productName": "Nuggets",
+        "price": "Price: $3",
+        "srcImage": "images/nuggets.jpg",
+        "categoryProduct": "snacks"
+    },
+    {
+        "name": "cheese sticks",
+        "productName": "Cheese Sticks",
+        "price": "Price: $3",
+        "srcImage": "images/cheeseSticks.jpg",
+        "categoryProduct": "snacks"
+    },
+    {
+        "name": "hamburger",
+        "productName": "Red Meat Hamburger",
+        "price": "Price: $12",
+        "srcImage": "images/hamburger.jpg",
+        "categoryProduct": "burgers"
+    },
+    {
+        "name": "chicken hamburger",
+        "productName": "Chicken Hamburger",
+        "price": "Price: $13",
+        "srcImage": "images/hamburgerChicken.jpg",
+        "categoryProduct": "burgers"
+    },
+    {
+        "name":"nachos",
+        "productName": "Mexican Nachos",
+        "price": "Price: $9",
+        "srcImage": "images/nachos.jpg",
+        "categoryProduct": "others"
+    },
+    {
+        "name":"hotdog",
+        "productName": "HotDog",
+        "price": "Price: $8",
+        "srcImage": "images/hotdog.jpg",
+        "categoryProduct": "others"
+    },
+    {
+        "name": "ice",
+        "productName": "Nice Ice",
+        "price": "Price: $8",
+        "srcImage": "images/ice.jpg",
+        "categoryProduct": "others"
+    },
+    {
+        "name" : "beer",
+        "productName": "Beer",
+        "price": "Price: $1.99",
+        "srcImage": "images/beer.jpg",
+        "categoryProduct": "drinks"
+    },
+    {
+        "name":"orange juice",
+        "productName": "Orange Juice",
+        "price": "Price: $1",
+        "srcImage": "images/orangeJuice.jpg",
+        "categoryProduct": "drinks"
+    },
+    {
+        "name": "lime water",
+        "productName": "Lime Water",
+        "price": "Price: $0.95",
+        "srcImage": "images/limeWater.jpg",
+        "categoryProduct": "drinks"
+    }]
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Menu </title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+        <script src="main.js" defer></script>
+    </head>
+
+    <body>
+        <nav>
+            <div>
+                <h1 id="nameNav"> The Menu </h1>
+            </div>
+            <div>
+                <img src="images/fries.jpg" alt="Fries" id="imageNav">
+            </div>
+        </nav>
+        <aside>
+            <div class="Bsearch">
+                <label for="search"> Search </label>
+                <input type="search" id="search" placeholder="search by name">
+            </div>
+            <div class="Bsearch">
+                <label for="category"> Category </label>
+                <select name="category" id="category">
+                    <option value="all"> All </option>
+                    <option value="wings"> Wings and Boneless</option>
+                    <option value="burgers"> Hamburgers </option>
+                    <option value="snacks"> Snacks </option>
+                    <option value="others"> Others</option>
+                    <option value="drinks"> Drinks</option>
+                </select>
+                <button id="buttonSearch">Search</button>
+            </div>
+        </aside>
+        <section id="results">
+            <div id="contFlex">
+
+            </div>
+        </section>
+    </body>
+</html>

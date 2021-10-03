@@ -1,0 +1,215 @@
+@font-face {
+    font-family: Birthstone;
+    src: url(fonts/Birthstone-Regular.ttf);
+}
+
+html{
+    height:100%;
+}
+
+body{
+    margin: 0%;
+    background-color: rgb(112, 58, 58);
+    min-height: 100%;
+}
+
+@media (orientation: landscape) {
+    nav{
+        overflow: hidden;
+        position: absolute;
+        width: 100%;
+        height: 30%;
+        box-shadow: 5px 5px 10px black;
+    }
+    
+    #imageNav{
+        position: absolute;
+        top: -80%;
+        left: -2%;
+        width: 103%;
+        height: 300%;
+        z-index: 1;
+        filter: blur(4px);
+    }
+    
+    #nameNav{
+        position: absolute;
+        top: 0%;
+        left: 37%;
+        margin-top: 3%;
+        text-align: center;
+        font-size: 500%;
+        font-family: Birthstone;
+        z-index: 2;
+        color: rgb(112, 58, 58);
+        background-color: rgba(240, 194, 194, 0.7);
+        border-radius: 30px;
+        width:25%;
+        height: 70%;
+    }
+    
+    aside{
+        position: absolute;
+        background-color: rgb(255, 248, 183);
+        top: 32%;
+        left: 25%;
+        width: 50%;
+        height: 5%;
+        padding: 1%;
+        border-radius: 5px;
+        overflow: hidden;
+    }
+    .Bsearch{
+        display: inline;
+        margin-left: 1%;
+    }
+    
+    #results{
+        position: absolute;
+        background-color: rgb(255, 248, 183);
+        width: 82.3%;
+        min-height: 200px;
+        top: 45%;
+        left: 9%;
+        border-radius: 5px;
+    }
+    
+    #contFlex{
+        background-color: rgb(250, 250, 250);
+        position:flex;
+        flex-direction: row;
+    }
+    
+    .cont{
+        background-color: rgb(255, 255, 255);
+        top: 10%;
+        border:rgb(112, 58, 58);
+        border-style: solid;
+        border-radius: 5px;
+        width: 30%;
+        height: 200px;
+        margin: 10px;
+        overflow: hidden;
+        float:left;
+        box-shadow: inset 0px  5px 10px;
+    }
+    .imgCont{
+        width: 100%;
+        height: 75%;
+    }
+    .product{
+        margin-top: -2%;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-align: center;
+        color: rgb(112, 58, 58);
+    }
+    .price{
+        margin-top: -6%;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: small;
+        text-align: center;
+        color: rgb(112, 58, 58);
+    }
+    
+}
+
+@media (orientation: portrait) {
+    nav{
+        overflow: hidden;
+        position: absolute;
+        width: 100%;
+        height: 10%;
+        box-shadow: 5px 5px 10px black;
+    }
+    
+    #imageNav{
+        position: absolute;
+        top: -80%;
+        left: -2%;
+        width: 103%;
+        height: 300%;
+        z-index: 1;
+        filter: blur(4px);
+    }
+    
+    #nameNav{
+        position: absolute;
+        top: 0%;
+        left: 37%;
+        margin-top: 3%;
+        text-align: center;
+        font-size: 500%;
+        font-family: Birthstone;
+        z-index: 2;
+        color: rgb(112, 58, 58);
+        background-color: rgba(240, 194, 194, 0.7);
+        border-radius: 30px;
+        width:25%;
+        height: 70%;
+    }
+    
+    aside{
+        position: absolute;
+        background-color: rgb(255, 248, 183);
+        top: 11%;
+        left: 23%;
+        width: 54%;
+        height: 2%;
+        padding: 1%;
+        border-radius: 5px;
+        overflow: hidden;
+    }
+    .Bsearch{
+        display: inline;
+        margin-left: 1%;
+    }
+    
+    #results{
+        position: absolute;
+        background-color: rgb(255, 248, 183);
+        width: 82.3%;
+        min-height: 200px;
+        top: 16%;
+        left: 9%;
+        border-radius: 5px;
+    }
+    
+    #contFlex{
+        background-color: rgb(250, 250, 250);
+        position:flex;
+        flex-direction: row;
+    }
+    
+    .cont{
+        background-color: rgb(255, 255, 255);
+        top: 10%;
+        border:rgb(112, 58, 58);
+        border-style: solid;
+        border-radius: 5px;
+        width: 30%;
+        height: 200px;
+        margin: 10px;
+        overflow: hidden;
+        float:left;
+        box-shadow: inset 0px  5px 10px;
+    }
+    .imgCont{
+        width: 100%;
+        height: 75%;
+    }
+    .product{
+        margin-top: -2%;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-align: center;
+        color: rgb(112, 58, 58);
+    }
+    .price{
+        margin-top: -6%;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: small;
+        text-align: center;
+        color: rgb(112, 58, 58);
+    }
+    
+    
+}
